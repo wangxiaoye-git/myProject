@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/layout">
+	<excludes>
+	    <pattern>/index.jsp/*</pattern>
+		<pattern>/static/*</pattern>
+		<pattern>/webjars/*</pattern>
+		<pattern>/signup</pattern>
+		<pattern>/signup/*</pattern>
+		<pattern>*/login.jsp*</pattern>
+		<pattern>*/lock-screen*.jsp*</pattern>
+		<pattern>*/lockScreen.do*</pattern>	
+		<pattern>*/keepLockScreenAlive.do*</pattern>
+		<pattern>/*showBootStrapMenu.do*</pattern>
+		<pattern>*menuContent.jsp*</pattern>
+		<pattern>/*.html</pattern>
+		<pattern>*.dialog</pattern>
+		<pattern>*.ajax</pattern>
+		<pattern>*.json</pattern>
+		<pattern>/lookup/*</pattern>
+		<pattern>*.js</pattern>
+	</excludes>
+	<decorator name="main" page="main.jsp">
+	    <pattern>/*</pattern>
+        <pattern>*/*UI*</pattern>
+		<pattern>*/list</pattern>
+		<pattern>*/*List*</pattern>
+		<pattern>*/*Maintain*</pattern>
+		<pattern>*/*Query.do*</pattern>
+		<pattern>*/*query.do*</pattern>
+		<pattern>*/*add.do*</pattern>
+		<pattern>*/*Add.do*</pattern>
+		<pattern>*/*view.do*</pattern>
+		<pattern>*/*View.do*</pattern>
+		<pattern>*/*update.do*</pattern>
+		<pattern>*/*Update.do*</pattern>
+		<pattern>*/*MenuConfig.jsp</pattern>
+		<pattern>*/*processUtiMenu.do*</pattern>
+		<pattern>*/*v*</pattern>
+	</decorator> 
+
+	
+</decorators>

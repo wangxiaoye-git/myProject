@@ -1,0 +1,164 @@
+/**----------------------------------------------LOGIN, FORGOT PASS, REGISTER AND LOCK SCREEN----------------------------------------------**/
+body.login {
+	background-image: url("../../images/login_back.png");
+/* 	background: #37BC9B; */
+	padding: 0;
+}
+
+.login-modal-dialog {
+	left:inherit;
+	padding: 0;
+	margin: 0;
+	width:inherit;
+	height:inherit;
+}
+
+
+.login-modal-content {
+	
+	background-image: url("../../images/login_back.png");
+/* 	background: #37BC9B; */
+	top:0px;
+	left:0px;
+	width:inherit;
+	border-radius:0px;
+	padding: 0;
+}
+
+
+
+body.lock {
+	padding: 0;
+}
+
+.login-header {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 200px;
+}
+
+
+
+.login-header .logo {
+	margin-top: 90px;
+	width: auto;
+}
+
+.login-wrapper {
+	width: 100%;
+	max-width: 300px;
+	margin: 215px auto 0;
+	color: #fff;
+	padding: 0 0 30px 0;
+}
+
+.login-wrapper a,.login-wrapper a:hover,.login-wrapper a:focus {
+	color: #fff;
+}
+
+.login-wrapper .avatar-lock {
+	width: 110px;
+	height: 110px;
+}
+
+.login-wrapper h4 {
+	color: #fff;
+}
+
+.login-wrapper .error-number {
+	color: #fff;
+	font-size: 80px;
+	text-align: center;
+	font-weight: 700;
+}
+
+
+.form-control {
+	border: 1px solid #ddd;
+	border-radius: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0);
+	-webkit-transition: border-color ease-in-out 0s, box-shadow ease-in-out
+		0s;
+	transition: border-color ease-in-out 0s, box-shadow ease-in-out 0s;
+}
+
+.has-feedback.left-feedback .form-control {
+	padding-left: 50px;
+	padding-right: 0px;
+}
+.form-control.no-border {
+	border: none;
+}
+
+.form-control.rounded {
+	border-radius: 4px;
+}
+
+.form-control-feedback {
+	color: #AAB2BD;
+	font-size: 18px;
+	
+}
+
+.has-feedback.left-feedback.lg .form-control-feedback {
+	left: 0px;
+}
+
+.has-feedback.left-feedback .form-control-feedback {
+	left: 0;
+	right: auto;
+}
+
+#validateCode{
+	padding-left: 23px;
+}
+
+#validateCodeImg{
+	vertical-align: middle;
+	width:90px;
+	height:40px;
+	margin-top: 3px;
+	margin-left: -2px;
+}
+
+#ajax-lockScreenModal{
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	margin:0;
+	padding:0;
+}
+
+
+
+@media (max-width: 979px) {
+	#ajax-lockScreenModal{
+		bottom:0px;
+		width: auto !important;
+		height: auto !important;
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+}
+
+
+.login-modal-dialog .form-control {
+	height:46px;
+	font-size:18px;
+}
+
+.login-modal-dialog .btn {
+	font-size:18px;
+}
+
+.login-modal-dialog .form-group {
+	margin-bottom:15px;
+}
+
+
+
+
