@@ -7,7 +7,7 @@ import com.picc.platform.organiz.schema.model.Organization;
 import com.picc.platform.organiz.service.facade.OrganizService;
 
 @Service(value="organizService")
-public class SaaUserServiceSpringImpl extends IBaseDaoServiceSpringImpl<Organization,String> implements OrganizService {
+public class OrganizServiceSpringImpl extends IBaseDaoServiceSpringImpl<Organization,String> implements OrganizService {
 
 
 }
